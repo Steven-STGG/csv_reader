@@ -1,0 +1,71 @@
+[Measurement]
+NumberOfPackets=2
+Packet1=WLAN802.11b&g_all
+Packet2=Overview
+PolChange=2
+LimitLine=BGVB11_Eeff_E1GE6
+Umts=0
+Lte=0
+Minutes=6
+Seconds=0
+[WLAN802.11b&g_all]
+HorCable=0m Cable
+HorRefLev=97
+Vertical=0
+ResolutionBW=100000
+TraceMode=Max Hold
+RmsDetector=1
+DwellTime=5000
+UseAsSwTime=0
+ExtPolFactor=0
+Threshold=54
+Relative=0
+PacketMode=0
+ChanWidMode=1
+HorAntenna=Probe X
+PreAmp=0
+ChanPowMeas=1
+HorAtt=0
+ChanPowBw=22
+VideoBW=-1
+ThreshType=0
+ThreshTable=WLAN802.11b_all
+XTalk=0
+NoOfSweeps=1
+ZAtt=10
+VerAtt=-1
+ZRefLev=0
+[Overview]
+HorCable=0m Cable
+HorRefLev=97
+Vertical=0
+ResolutionBW=100000
+TraceMode=Max Hold
+RmsDetector=1
+Channels=1000
+DwellTime=2000
+Threshold=94
+Relative=0
+PacketMode=1
+ExtPolFactor=0
+Horizontal=1
+HorAntenna=Probe X
+HorAtt=0
+VideoBW=-1
+UseAsSwTime=0
+ChanWidMode=0
+PreAmp=0
+ChanPowMeas=0
+ThreshTable=All
+ThreshType=0
+XTalk=0
+Service=Default
+[Report]
+ExportLimit=BGVB11_Eeff_E1GE6
+[General]
+ShortUmts=0
+[DateAndTime]
+StartDate=8/3/2020 5:49:11 PM
+StopDate=8/3/2020 5:57:58 PM
+GpsPosition=
+Loops=2
