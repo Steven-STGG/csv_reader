@@ -1,1 +1,0 @@
-arent_path=os.getcwd()

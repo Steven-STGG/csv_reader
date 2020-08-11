@@ -3,6 +3,7 @@ import sys
 import os
 import pandas
 import re
+import shutil
 
 database = os.path.join(os.getcwd(),"Database")
 
@@ -12,7 +13,31 @@ def main():
     Data=Getdata(sys.argv[1])
     database(Data)
     
+def Data_save(source,database):
+    for files in source:
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
 def Getdata(directory):
 
     for files in os.listdir(directory):
